@@ -26,8 +26,8 @@ const productos = [
 
 const messages = [
     {
-        email: 'xsawin@gmail.com',
-        timestamp: '28/02/2021 10:15:22',
+        email: 'cristian.svk@gmail.com',
+        timestamp: '12/12/2021 10:15:22',
         message: 'Hola!'
     }
 ]
@@ -76,6 +76,6 @@ io.on('connection', (socket: { broadcast: { emit: (arg0: string, arg1: string) =
 
 })
 
-http.listen(3024, () => {
-    console.log('Driving-driving on port 3024');
+http.listen(8080, () => {
+    console.log('Servidor en puerto 8080');
 })
